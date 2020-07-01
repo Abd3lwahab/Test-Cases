@@ -77,7 +77,11 @@ do
         # Clear the test case
         testCase=""
     else
-        testCase="$testCase$line"
+        if [ "$testCase" == "" ]; then
+            testCase="$line"
+        else
+            testCase="$testCase $line"
+        fi
     fi
 done <"$testCasesFile"
 
