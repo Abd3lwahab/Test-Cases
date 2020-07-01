@@ -23,8 +23,9 @@ chmod +x Test-Cases.sh
 ./Test-Cases.sh [CPPFILE] [TestCasesFILE]
 ```
 The script should start with two command-line arguments:
-- CPPFILE : is the name of the C++ file with extension ".cpp" that will be able to compile.
-- TestCasesFILE :is the name of a text file that includes test cases that will testing on the program.
+- CPPFILE: is the name of the C++ file with extension ".cpp" that will be able to compile.
+- TestCasesFILE: is the name of a text file that includes test cases that will testing on the program.   
+
 The script should run in the same directory with the C++ file and test cases file.
 
 ### Format of Test Cases File
