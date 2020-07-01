@@ -2,7 +2,6 @@
 Test-Cases is a shell script that compiles and test given C++ file on given test cases in a text file and print the output of each test case into a new text file.
 
 ## Installation
-
 ```bash
 git clone https://github.com/Abdelwahab07/Test-Cases.git
 cd Test-Cases
@@ -18,11 +17,10 @@ chmod +x Test-Cases.sh
 ```
 
 ## Usage
-
 ```bash
 ./Test-Cases.sh [CPPFILE] [TestCasesFILE]
 ```
-The script should start with two command-line arguments:
+The script should run with two command-line arguments:
 - CPPFILE: is the name of the C++ file with extension ".cpp" that will be able to compile.
 - TestCasesFILE: is the name of a text file that includes test cases that will testing on the program.   
 
@@ -44,7 +42,7 @@ Continue Test Case 2
 
 ```
 
-Notice: g++ compiler should be installed and these are the default flags, with the ability to edit them at line '40' in the script.
+##### Notice: g ++ compiler should be installed and these are the default flags and can be modified on line 40 in the script.
 ```bash
 g++ -pipe -O2 -std=c++14 -lm
 ```
