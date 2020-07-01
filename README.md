@@ -15,7 +15,7 @@ cd Test-Cases
 ./Test-Cases.sh [CPPFILE] [TestCasesFILE]
 ```
 Should start script with two command line argument:
-- CPPFILE : is a name of C++ file with extinitio ".cpp" that will be able to compiling.
+- CPPFILE : is a name of C++ file with extension ".cpp" that will be able to compiling.
 - TestCasesFILE :is a name of files that include test cases that will testing on the program
 And should use script in the same path with two C++ file and Test cases file
 
