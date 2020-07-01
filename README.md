@@ -8,6 +8,14 @@ git clone https://github.com/Abdelwahab07/Test-Cases.git
 cd Test-Cases
 ./Test-Cases.sh 
 ```
+If you got the following error: 
+```bash
+bash: ./Test-Cases.sh: Permission denied
+```
+Enter the following command:
+```bash
+chmod +x Test-Cases.sh
+```
 
 ## Usage
 
@@ -37,3 +45,7 @@ Continue TestCase 2
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://github.com/Abdelwahab07/Test-Cases/blob/master/LICENSE)   
+Copyright (c) 2020 Abdelwahab Hussein
