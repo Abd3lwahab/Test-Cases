@@ -41,6 +41,7 @@ Continue Test Case 2
 
 
 ```
+The Output will save in file called 'output.txt' with information about each test case and its result.
 
 ##### Notice: g ++ compiler should be installed and these are the default flags and can be modified on line 40 in the script.
 ```bash
