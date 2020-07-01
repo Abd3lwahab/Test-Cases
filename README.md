@@ -44,6 +44,11 @@ Continue Test Case 2
 
 ```
 
+Notice: g++ compiler should be installed and these are the default flags, with the ability to edit them at line '40' in the script.
+```bash
+g++ -pipe -O2 -std=c++14 -lm
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
