@@ -1,5 +1,5 @@
 # Test-Cases
-Test-Cases is a shell script that compiles and test given C++ file on given test cases in text file, and print the output of each test case into new text file.
+Test-Cases is a shell script that compiles and test given C++ file on given test cases in a text file and print the output of each test case into a new text file.
 
 ## Installation
 
@@ -22,23 +22,23 @@ chmod +x Test-Cases.sh
 ```bash
 ./Test-Cases.sh [CPPFILE] [TestCasesFILE]
 ```
-Should start script with two command line argument:
-- CPPFILE : is a name of C++ file with extension ".cpp" that will be able to compiling.
-- TestCasesFILE :is a name of files that include test cases that will testing on the program
-And should use script in the same path with two C++ file and Test cases file
+The script should start with two command-line arguments:
+- CPPFILE : is the name of the C++ file with extension ".cpp" that will be able to compile.
+- TestCasesFILE :is the name of a text file that includes test cases that will testing on the program.
+The script should run in the same directory with the C++ file and test cases file.
 
 ### Format of Test Cases File
-- Add empty line between each test case.
-- It's allowing that test case have more than one line.
-- Add two empty lines after last test case.
+- Add an empty line between each test case.
+- It allows the test case to be in more than one line.
+- Add two empty lines after the last test case.
 
 Example:
 ```text
-TestCase 1
-Continue TestCase 1
+Test Case 1
+Continue Test Case 1
 
-TestCase 2
-Continue TestCase 2
+Test Case 2
+Continue Test Case 2
 
 
 ```
