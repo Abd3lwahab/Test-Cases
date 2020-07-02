@@ -85,7 +85,7 @@ do
     fi
 done <"$testCasesFile"
 
-printf "********* Don't forget to star the repository on GitHub, Thanks *********" >> output.txt
+printf "********* Don't forget to star the repository on GitHub, Thanks *********\n" >> output.txt
 
 printf "\nResult saved successfully in output.txt\n"
 
