@@ -26,6 +26,16 @@ The script should run with two command-line arguments:
 
 The script should run in the same directory with the C++ file and test cases file.
 
+### Run from anywhere
+If you want to run the script from anywhere and avoid copying the script each time to the same folder with C++ and test cases file. Add the script to your PATH by this command:
+```bash
+sudo mv Test-Cases.sh /usr/local/bin
+```
+Then you will be able to run the script from anywhere and you will not need to write “./” and use it as follows:
+```bash
+Test-Cases.sh [CPPFILE] [TestCasesFILE]
+```
+
 ### Format of Test Cases File
 - Add an empty line between each test case.
 - It allows the test case to be in more than one line.
@@ -46,15 +56,6 @@ The Output will save in file called 'output.txt' with information about each tes
 ##### Notice: g ++ compiler should be installed and these are the default flags and can be modified on line 40 in the script.
 ```bash
 g++ -pipe -O2 -std=c++14 -lm
-```
-### Run from anywhere
-If you want to run the script from anywhere and avoid copying the script each time to the same folder with C++ and test cases file. Add the script to your PATH by this command:
-```bash
-sudo mv Test-Cases.sh /usr/local/bin
-```
-Then you will be able to run the script from anywhere and you will not need to write “./” and use it as follows:
-```bash
-Test-Cases.sh [CPPFILE] [TestCasesFILE]
 ```
 
 ## Contributing
