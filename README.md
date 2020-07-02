@@ -47,6 +47,15 @@ The Output will save in file called 'output.txt' with information about each tes
 ```bash
 g++ -pipe -O2 -std=c++14 -lm
 ```
+### Run from anywhere
+If you want to run the script from anywhere and avoid copying the script each time to the same folder with C++ and test cases file. Add the script to your PATH by this command:
+```bash
+sudo mv Test-Cases.sh /usr/local/bin
+```
+Then you will be able to run the script from anywhere and you will not need to write “./” and use it as follows:
+```bash
+Test-Cases.sh [CPPFILE] [TestCasesFILE]
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
