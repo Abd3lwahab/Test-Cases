@@ -68,7 +68,7 @@ do
         printf "Test Case %s: %s\n" "$counter" "$testCase">> output.txt
 	    echo "........ Running on Test case : $counter ........"
         {
-            printf " Result: "
+            printf "Result: \n"
             # Run current test case on the execution file and print the output in output.txt
             "./$src" <<< "$testCase" 
             printf "\n"
